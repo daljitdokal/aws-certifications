@@ -51,12 +51,54 @@ Amazon Elastic Kubernetes Service (Amazon EKS) is a fully managed service that y
 AWS Fargate is a serverless compute engine for containers. It works with both Amazon ECS and Amazon EKS. 
 
 ## Module 3
+### AWS global infrastructure
+#### Availability Zone:
+An Availability Zone is a single data center or a group of data centers within a Region. Availability Zones are located tens of miles apart from each other. This is close enough to have low latency (the time between when content requested and received) between Availability Zones. However, if a disaster occurs in one part of the Region, they are distant enough to reduce the chance that multiple Availability Zones are affected.
+
+#### Edge locations
+An edge location is a site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
+
+#### Ways to interact with AWS services
+- AWS Management Console:  web-based interface
+- AWS Command Line Interface (AWS CLI): API requests
+- Software development kits (SDKs): supported programming languages include C++, Java, .NET, and more.
+
+#### AWS Elastic Beanstalk
+With AWS Elastic Beanstalk, you provide code and configuration settings, and Elastic Beanstalk deploys the resources necessary to perform.
+
+#### AWS CloudFormation
+With AWS CloudFormation, you can treat your infrastructure as code. This means that you can build an environment by writing lines of code instead of using the AWS Management Console to individually provision resources.
+
+## Module 4
+### Connectivity to AWS
+#### Amazon Virtual Private Cloud (Amazon VPC)
+Amazon VPC enables you to provision an isolated section of the AWS Cloud. In this isolated section, you can launch resources in a virtual network that you define. Within a virtual private cloud (VPC), you can organize your resources into subnets. A subnet is a section of a VPC that can contain resources such as Amazon EC2 instances.
+
+Internet gateway:
+To allow public traffic from the internet to access your VPC, you attach an internet gateway to the VPC. An internet gateway is a connection between a VPC and the internet.
+
+#### Virtual private gateway
+To access private resources in a VPC, you can use a virtual private gateway. A virtual private gateway allows traffic into the VPC only if it is coming from an approved network.
+
+#### AWS Direct Connect
+AWS Direct Connect is a service that enables you to establish a dedicated private connection between your data center and a VPC.  
 
 
+### Subnets
+A subnet is a section of a VPC in which you can group resources based on security or operational needs. Subnets can be public or private. 
+- Public subnets contain resources that need to be accessible by the public, such as an online store’s website.
+- Private subnets contain resources that should be accessible only through your private network, such as a database that contains customers’ personal information and order histories.
 
+### Network access control lists (ACL)
+When a customer requests data from an application hosted in the AWS Cloud, this request is sent as a packet. A packet is a unit of data sent over the internet or a network. 
+It enters into a VPC through an internet gateway. Before a packet can enter into a subnet or exit from a subnet, it checks for permissions. These permissions indicate who sent the packet and how the packet is trying to communicate with the resources in a subnet.
+The VPC component that checks packet permissions for subnets is a network access control list (ACL).
 
+### Domain Name System (DNS)
+Translating a domain name to an IP address.
 
-
+#### AWS Route 53
+Amazon Route 53 is a DNS web service. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS.
 
 
 
