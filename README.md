@@ -100,10 +100,41 @@ Translating a domain name to an IP address.
 #### AWS Route 53
 Amazon Route 53 is a DNS web service. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS.
 
+## Module 5
+### Instance stores and Amazon Elastic Block Store (Amazon EBS)
+#### Amazon Virtual Private Cloud (Amazon VPC)
+Amazon Elastic Block Store (Amazon EBS) is a service that provides block-level storage volumes that you can use with Amazon EC2 instances. If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available.
 
+#### Amazon EBS snapshots
+An EBS snapshot is an incremental backup. This means that the first backup taken of a volume copies all the data. For subsequent backups, only the blocks of data that have changed since the most recent snapshot are saved. 
 
+Incremental backups are different from full backups, in which all the data in a storage volume copies each time a backup occurs. The full backup includes data that has not changed since the most recent backup.
 
+### Amazon Simple Storage Service (Amazon S3)
+Amazon Simple Storage Service (Amazon S3) is a service that provides object-level storage. Amazon S3 stores data as objects in buckets.
 
+You can upload any type of file to Amazon S3, such as images, videos, text files, and so on. For example, you might use Amazon S3 to store backup files, media files for a website, or archived documents. Amazon S3 offers unlimited storage space. The maximum file size for an object in Amazon S3 is 5 TB.
 
+When you upload a file to Amazon S3, you can set permissions to control visibility and access to it. You can also use the Amazon S3 versioning feature to track changes to your objects over time
 
+Note:
+S3: Upload file as whole, web enable and best for static web hosting, EC2 is not required.
 
+EBS: Upload file as only updated part i.e. not re-upload 8-GB video if you just updated one part of the video. EC2 is required.
+
+### Amazon Relational Database Service (Amazon RDS)
+Amazon Relational Database Service (Amazon RDS) is a service that enables you to run relational databases in the AWS Cloud.
+
+#### Amazon Aurora - SQL
+Amazon Aurora is an enterprise-class relational database. It is compatible with MySQL and PostgreSQL relational databases. It is up to five times faster than standard MySQL databases and up to three times faster than standard PostgreSQL databases.
+
+#### Amazon DynamoDB - NoSQL
+Amazon DynamoDB is a key-value database service. It delivers single-digit millisecond performance at any scale.
+- Serverless and managed
+- Nonrelational databases: In a nonrelational database, you create tables. A table is a place where you can store and query data. Nonrelational databases are sometimes referred to as “NoSQL databases” because they use structures other than rows and columns to organize data. One type of structural approach for nonrelational databases is key-value pairs. With key-value pairs, data is organized into items (keys), and items have attributes (values). You can think of attributes as being different features of your data.
+
+#### Amazon Redshift - Warehousing service
+Amazon Redshift is a data warehousing service that you can use for big data analytics. It offers the ability to collect data from many sources and helps you to understand relationships and trends across your data.
+
+#### AWS Database Migration Service (AWS DMS)
+AWS Database Migration Service (AWS DMS) enables you to migrate relational databases, nonrelational databases, and other types of data stores.
