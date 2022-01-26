@@ -138,3 +138,34 @@ Amazon Redshift is a data warehousing service that you can use for big data anal
 
 #### AWS Database Migration Service (AWS DMS)
 AWS Database Migration Service (AWS DMS) enables you to migrate relational databases, nonrelational databases, and other types of data stores.
+
+## Module 6
+#### The AWS shared responsibility model
+Throughout this course, you have learned about a variety of resources that you can create in the AWS Cloud. These resources include Amazon EC2 instances, Amazon S3 buckets, and Amazon RDS databases. Who is responsible for keeping these resources secure: you (the customer) or AWS?
+
+The answer is both. The reason is that you do not treat your AWS environment as a single object. Rather, you treat the environment as a collection of parts that build upon each other. AWS is responsible for some parts of your environment and you (the customer) are responsible for other parts. This concept is known as the shared responsibility model.
+
+### User permissions and access
+#### AWS Identity and Access Management (IAM)
+AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely.   
+
+#### AWS Organizations
+Suppose that your company has multiple AWS accounts. You can use AWS Organizations to consolidate and manage multiple AWS accounts within a central location.
+
+When you create an organization, AWS Organizations automatically creates a root, which is the parent container for all the accounts in your organization. 
+In AWS Organizations, you can centrally control permissions for the accounts in your organization by using service control policies (SCPs). SCPs enable you to place restrictions on the AWS services, resources, and individual API actions that users and roles in each account can access.
+
+#### Compliance
+Depending on your company’s industry, you may need to uphold specific standards. An audit or inspection will ensure that the company has met those standards.
+
+AWS Artifact is a service that provides on-demand access to AWS security and compliance reports and select online agreements. AWS Artifact consists of two main sections: AWS Artifact Agreements and AWS Artifact Reports.
+
+#### Denial-of-service attacks
+A denial-of-service (DoS) attack is a deliberate attempt to make a website or application unavailable to users.
+
+AWS Shield
+AWS Shield is a service that protects applications against DDoS attacks. AWS Shield provides two levels of protection: Standard and Advanced.
+
+
+
+
