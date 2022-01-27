@@ -230,3 +230,24 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 For each listing in AWS Marketplace, you can access detailed information on pricing options, available support, and reviews from other AWS customers.
 AWS Marketplace offers products in several categories, such as Infrastructure Products, Business Applications, Data Products, and DevOps.
 
+## Module 9
+### AWS Cloud Adoption Framework (AWS CAF)
+#### 6 core perspectives of the Cloud Adoption Framework
+At the highest level, the AWS Cloud Adoption Framework (AWS CAF) organizes guidance into six areas of focus, called Perspectives. Each Perspective addresses distinct responsibilities. The planning process helps the right people across the organization prepare for the changes ahead.
+
+In general, the Business, People, and Governance Perspectives focus on business capabilities, whereas the Platform, Security, and Operations Perspectives focus on technical capabilities.
+
+#### 6 strategies for migration
+When migrating applications to the cloud, six of the most common migration strategies that you can implement are:
+Rehosting
+Replatforming
+Refactoring/re-architecting
+Repurchasing
+Retaining
+Retiring
+
+
+#### AWS Snow Family members
+The AWS Snow Family is a collection of physical devices that help to physically transport up to exabytes of data into and out of AWS. 
+AWS Snow Family is composed of AWS Snowcone, AWS Snowball, and AWS Snowmobile. 
+
