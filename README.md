@@ -251,3 +251,23 @@ Retiring
 The AWS Snow Family is a collection of physical devices that help to physically transport up to exabytes of data into and out of AWS. 
 AWS Snow Family is composed of AWS Snowcone, AWS Snowball, and AWS Snowmobile. 
 
+## Module 10
+#### The AWS Well-Architected Framework
+The AWS Well-Architected Framework helps you understand how to design and operate reliable, secure, efficient, and cost-effective systems in the AWS Cloud. It provides a way for you to consistently measure your architecture against best practices and design principles and identify areas for improvement.
+
+The Well-Architected Framework is based on 5 pillars: 
+Operational excellence
+Security
+Reliability
+Performance efficiency
+Cost optimization
+
+#### Advantages of cloud computing
+Operating in the AWS Cloud offers many benefits over computing in on-premises or hybrid environments. 
+In this section, you will learn about six advantages of cloud computing:
+Trade upfront expense for variable expense.
+Benefit from massive economies of scale.
+Stop guessing capacity.
+Increase speed and agility.
+Stop spending money running and maintaining data centers.
+Go global in minutes.
