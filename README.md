@@ -178,6 +178,7 @@ For example, suppose that your company’s developers use Amazon EC2 instances f
 
 The CloudWatch dashboard feature enables you to access all the metrics for your resources from a single location. For example, you can use a CloudWatch dashboard to monitor the CPU utilization of an Amazon EC2 instance, the total number of requests made to an Amazon S3 bucket, and more. You can even customize separate dashboards for different business purposes, applications, or resources.
 
+## Module 7
 #### AWS CloudTrail
 AWS CloudTrail records API calls for your account. The recorded information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, and more. You can think of CloudTrail as a “trail” of breadcrumbs (or a log of actions) that someone has left behind them.
 
@@ -190,3 +191,42 @@ For example, CloudTrail Insights might detect that a higher number of Amazon EC2
 AWS Trusted Advisor is a web service that inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices.
 
 Trusted Advisor compares its findings to AWS best practices in five categories: cost optimization, performance, security, fault tolerance, and service limits. For the checks in each category, Trusted Advisor offers a list of recommended actions and additional resources to learn more about AWS best practices. 
+
+## Module 8
+#### How AWS pricing works
+AWS offers a range of cloud computing services with pay-as-you-go pricing.
+
+#### AWS Pricing Calculator
+The AWS Pricing Calculator lets you explore AWS services and create an estimate for the cost of your use cases on AWS. You can organize your AWS estimates by groups that you define. A group can reflect how your company is organized, such as providing estimates by cost center.
+
+#### Consolidated billing
+In an earlier module, you learned about AWS Organizations, a service that enables you to manage multiple AWS accounts from a central location. AWS Organizations also provides the option for consolidated billing. 
+
+The consolidated billing feature of AWS Organizations enables you to receive a single bill for all AWS accounts in your organization. By consolidating, you can easily track the combined costs of all the linked accounts in your organization. The default maximum number of accounts allowed for an organization is 4, but you can contact AWS Support to increase your quota, if needed.
+
+#### AWS Budgets
+In AWS Budgets, you can create budgets to plan your service usage, service costs, and instance reservations.
+The information in AWS Budgets updates three times a day. This helps you to accurately determine how close your usage is to your budgeted amounts or to the AWS Free Tier limits.
+In AWS Budgets, you can also set custom alerts when your usage exceeds (or is forecasted to exceed) the budgeted amount.
+
+#### AWS Cost Explorer
+AWS Cost Explorer is a tool that enables you to visualize, understand, and manage your AWS costs and usage over time.
+
+#### AWS Support
+AWS offers four different Support plans to help you troubleshoot issues, lower costs, and efficiently use AWS services. 
+
+You can choose from the following Support plans to meet your company’s needs: 
+Basic
+Developer
+Business
+Enterprise
+
+#### Technical Account Manager (TAM)
+The Enterprise Support plan includes access to a Technical Account Manager (TAM).
+
+
+##### AWS Marketplace
+AWS Marketplace is a digital catalog that includes thousands of software listings from independent software vendors. You can use AWS Marketplace to find, test, and buy software that runs on AWS. 
+For each listing in AWS Marketplace, you can access detailed information on pricing options, available support, and reviews from other AWS customers.
+AWS Marketplace offers products in several categories, such as Infrastructure Products, Business Applications, Data Products, and DevOps.
+
