@@ -13,6 +13,13 @@ Within Amazon EC2 Auto Scaling, you can use two approaches: dynamic scaling and 
 
 Amazon EC2 instance types: https://aws.amazon.com/ec2/instance-types/
 
+EC2 purchnage options:
+- **Demand**: Pay per duration used
+- **Saving plans**: 1 year or 3 years term (upto 72% saving)
+- **Reserved Instances**: Pedictable use then use this - 1 year or 3 years term (upto 72% saving) (3 payment options, upfron, partialy upfrond, no upfront)
+- **Spot Instances**: AWS can reclaim any of these (2 minutes warning before reclaim)
+- **Dedicated Instances**: Physical servers with Amazon EC2 instance capacity that is fully dedicated to your use. 
+- 
 ### Elastic Load Balancing
 Elastic Load Balancing is the AWS service that automatically distributes incoming application traffic across multiple resources, such as Amazon EC2 instances.
 
