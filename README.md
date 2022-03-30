@@ -59,8 +59,15 @@ AWS Fargate is a serverless compute engine for containers. It works with both Am
 
 ## Module 3
 ### AWS global infrastructure
-#### Availability Zone:
+
+#### Region (i.e. Sydney: ap-southeast-2)
+AWS has the concept of a Region, which is a physical location around the world where we cluster data centers. We call each group of logical data centers an Availability Zone. Each AWS Region consists of multiple, isolated, and physically separate AZs within a geographic area.
+
+#### Availability Zone (data centers):
 An Availability Zone is a single data center or a group of data centers within a Region. Availability Zones are located tens of miles apart from each other. This is close enough to have low latency (the time between when content requested and received) between Availability Zones. However, if a disaster occurs in one part of the Region, they are distant enough to reduce the chance that multiple Availability Zones are affected.
+
+**Note:**
+Run across at least 2 AZ in a Region.
 
 #### Edge locations
 An edge location is a site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
