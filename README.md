@@ -77,11 +77,12 @@ An edge location is a site that Amazon CloudFront uses to store cached copies of
 - AWS Command Line Interface (AWS CLI): API requests
 - Software development kits (SDKs): supported programming languages include C++, Java, .NET, and more.
 
-#### AWS Elastic Beanstalk
+#### AWS CloudFormation  (Lower level service from AWS)
+With AWS CloudFormation, you can treat your infrastructure as code and have direct control to manage granular details.
+
+#### AWS Elastic Beanstalk (Higher level service from AWS)
 With AWS Elastic Beanstalk, you provide code and configuration settings, and Elastic Beanstalk deploys the resources necessary to perform.
 
-#### AWS CloudFormation
-With AWS CloudFormation, you can treat your infrastructure as code. This means that you can build an environment by writing lines of code instead of using the AWS Management Console to individually provision resources.
 
 ## Module 4
 ### Connectivity to AWS
