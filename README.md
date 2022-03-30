@@ -78,10 +78,10 @@ An edge location is a site that Amazon CloudFront uses to store cached copies of
 - Software development kits (SDKs): supported programming languages include C++, Java, .NET, and more.
 
 #### AWS CloudFormation  (Lower level service from AWS)
-With AWS CloudFormation, you can treat your infrastructure as code and have direct control to manage granular details.
+With AWS CloudFormation, you can treat your infrastructure as code (you have direct control to manage granular details)
 
 #### AWS Elastic Beanstalk (Higher level service from AWS)
-With AWS Elastic Beanstalk, you provide code and configuration settings, and Elastic Beanstalk deploys the resources necessary to perform.
+With AWS Elastic Beanstalk, you provide code and configuration settings, and Elastic Beanstalk deploys the resources necessary to perform. (AWS have direct control to manage granular details)
 
 
 ## Module 4
