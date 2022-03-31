@@ -262,16 +262,26 @@ AWS Marketplace offers products in several categories, such as Infrastructure Pr
 #### 6 core perspectives of the Cloud Adoption Framework
 At the highest level, the AWS Cloud Adoption Framework (AWS CAF) organizes guidance into six areas of focus, called Perspectives. Each Perspective addresses distinct responsibilities. The planning process helps the right people across the organization prepare for the changes ahead.
 
-In general, the Business, People, and Governance Perspectives focus on business capabilities, whereas the Platform, Security, and Operations Perspectives focus on technical capabilities.
+In general, the 
+- Business,
+- People
+- and Governance Perspectives 
+
+focus on business capabilities, whereas the 
+
+- Platform, 
+- Security 
+- and Operations Perspectives focus on technical capabilities.
 
 #### 6 strategies for migration
 When migrating applications to the cloud, six of the most common migration strategies that you can implement are:
-Rehosting
-Replatforming
-Refactoring/re-architecting
-Repurchasing
-Retaining
-Retiring
+
+- Rehosting
+- Replatforming
+- Refactoring/re-architecting
+- Repurchasing
+- Retaining
+- Retiring
 
 
 #### AWS Snow Family members
@@ -284,18 +294,20 @@ AWS Snow Family is composed of AWS Snowcone, AWS Snowball, and AWS Snowmobile.
 The AWS Well-Architected Framework helps you understand how to design and operate reliable, secure, efficient, and cost-effective systems in the AWS Cloud. It provides a way for you to consistently measure your architecture against best practices and design principles and identify areas for improvement.
 
 The Well-Architected Framework is based on 5 pillars: 
-Operational excellence
-Security
-Reliability
-Performance efficiency
-Cost optimization
+
+- Operational excellence
+- Security
+- Reliability
+- Performance efficiency
+- Cost optimization
 
 #### Advantages of cloud computing
 Operating in the AWS Cloud offers many benefits over computing in on-premises or hybrid environments. 
 In this section, you will learn about six advantages of cloud computing:
-Trade upfront expense for variable expense.
-Benefit from massive economies of scale.
-Stop guessing capacity.
-Increase speed and agility.
-Stop spending money running and maintaining data centers.
-Go global in minutes.
+
+- Trade upfront expense for variable expense.
+- Benefit from massive economies of scale.
+- Stop guessing capacity.
+- Increase speed and agility.
+- Stop spending money running and maintaining data centers.
+- Go global in minutes.
