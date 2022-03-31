@@ -117,7 +117,7 @@ Amazon Route 53 is a DNS web service. It gives developers and businesses a relia
 
 ## Module 5
 ### Instance stores and Amazon Elastic Block Store (Amazon EBS)
-#### Amazon Virtual Private Cloud (Amazon VPC)
+#### Amazon Elastic Block Store
 Amazon Elastic Block Store (Amazon EBS) is a service that provides block-level storage volumes that you can use with Amazon EC2 instances. If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available.
 
 #### Amazon EBS snapshots
