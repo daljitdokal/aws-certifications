@@ -241,10 +241,11 @@ AWS Cost Explorer is a tool that enables you to visualize, understand, and manag
 AWS offers four different Support plans to help you troubleshoot issues, lower costs, and efficiently use AWS services. 
 
 You can choose from the following Support plans to meet your company’s needs: 
-Basic
-Developer
-Business
-Enterprise
+
+- Basic: To begin with, every customer automatically gets AWS Basic support, no cost at all. Any customer can access support functions like 24/7 access to customer service, documentation, whitepapers, support forums, AWS Trusted Advisor, and the AWS Personal Health Dashboard.
+- Developer: includes everything in the Basic support level. Plus, you can email customer support directly with a 24 hour response time  And responses of less than 12 hours in case your systems are impaired. 
+- Business: Everything in the previous tiers, plus Trusted Advisor now opens up the entire suite of checks for your account. You are given direct phone access to our support team that has a 4 hour response SLA. If your production system is impaired, and a 1 hour SLA for production systems down.
+- Enterprise: It has everything in the previous tiers. Plus a 15 minute SLA for business critical workloads, a dedicated technical account manager for TAM. They will coordinate access to programs and other AWS experts as needed. 
 
 #### Technical Account Manager (TAM)
 The Enterprise Support plan includes access to a Technical Account Manager (TAM).
