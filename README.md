@@ -203,8 +203,6 @@ For example, suppose that your company’s developers use Amazon EC2 instances f
 
 The CloudWatch dashboard feature enables you to access all the metrics for your resources from a single location. For example, you can use a CloudWatch dashboard to monitor the CPU utilization of an Amazon EC2 instance, the total number of requests made to an Amazon S3 bucket, and more. You can even customize separate dashboards for different business purposes, applications, or resources.
 
-
-## Module 8
 #### AWS CloudTrail
 AWS CloudTrail records API calls for your account. The recorded information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, and more. You can think of CloudTrail as a “trail” of breadcrumbs (or a log of actions) that someone has left behind them.
 
@@ -219,7 +217,7 @@ AWS Trusted Advisor is a web service that inspects your AWS environment and prov
 Trusted Advisor compares its findings to AWS best practices in five categories: cost optimization, performance, security, fault tolerance, and service limits. For the checks in each category, Trusted Advisor offers a list of recommended actions and additional resources to learn more about AWS best practices. 
 
 
-## Module 9
+## Module 8
 #### How AWS pricing works
 AWS offers a range of cloud computing services with pay-as-you-go pricing.
 
@@ -258,7 +256,7 @@ For each listing in AWS Marketplace, you can access detailed information on pric
 AWS Marketplace offers products in several categories, such as Infrastructure Products, Business Applications, Data Products, and DevOps.
 
 
-## Module 10
+## Module 9
 ### AWS Cloud Adoption Framework (AWS CAF)
 #### 6 core perspectives of the Cloud Adoption Framework
 At the highest level, the AWS Cloud Adoption Framework (AWS CAF) organizes guidance into six areas of focus, called Perspectives. Each Perspective addresses distinct responsibilities. The planning process helps the right people across the organization prepare for the changes ahead.
@@ -280,7 +278,7 @@ The AWS Snow Family is a collection of physical devices that help to physically 
 AWS Snow Family is composed of AWS Snowcone, AWS Snowball, and AWS Snowmobile. 
 
 
-## Module 11
+## Module 10
 #### The AWS Well-Architected Framework
 The AWS Well-Architected Framework helps you understand how to design and operate reliable, secure, efficient, and cost-effective systems in the AWS Cloud. It provides a way for you to consistently measure your architecture against best practices and design principles and identify areas for improvement.
 
