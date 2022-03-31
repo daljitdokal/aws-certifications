@@ -132,6 +132,16 @@ You can upload any type of file to Amazon S3, such as images, videos, text files
 
 When you upload a file to Amazon S3, you can set permissions to control visibility and access to it. You can also use the Amazon S3 versioning feature to track changes to your objects over time
 
+**Amazon S3 storage classes**
+
+- S3 Standard: Frequently accessed data, Stores data in a minimum of three Availability Zones (higher cost)
+- S3 Standard-Infrequent Access (S3 Standard-IA): Infrequently accessed data, Stores data in a minimum of three Availability Zones but has a lower storage price and higher retrieval price (lower cost than S3 Standard)
+- S3 One Zone-Infrequent Access (S3 One Zone-IA): Stores data in a single Availability Zone (lower cost than S3 Standard-IA)
+- S3 Intelligent-Tiering: Ideal for data with unknown or changing access patterns (Requires a small monthly monitoring and automation fee per object). If you haven’t accessed an object for 30 consecutive days, Amazon S3 automatically moves it to the infrequent access tier, S3 Standard-IA. If you access an object in the infrequent access tier, Amazon S3 automatically moves it to the frequent access tier, S3 Standard.
+- S3 Glacier: Low-cost storage class that is ideal for data archiving (retrieve objects within a few minutes to hours). For example, you might use this storage class to store archived customer records or older photos and video files.
+- S3 Glacier Deep Archive: Lowest-cost object storage class ideal for archiving (retrieve objects within 12 hours). When deciding between Amazon S3 Glacier and Amazon S3 Glacier Deep Archive, consider how quickly you need to retrieve archived objects.
+
+
 Note:
 S3: Upload file as whole, web enable and best for static web hosting, EC2 is not required.
 
