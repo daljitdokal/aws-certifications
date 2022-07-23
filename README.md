@@ -325,24 +325,45 @@ In this section, you will learn about six advantages of cloud computing:
 ## Definations: 
 
 **DMS:** 
+
 **HSM:**
+
 **AWS Chime:**
+
 **AppStream:**
+
 **VPC:**  virtual private cloud
+
 **ECR:** Elastic Container Registry (Amazon ECR) is a Docker container registry that allows developers to store, manage, and deploy Docker container images.
+
 **Athena:** Athena is an interactive query service that is mainly used to analyze data in Amazon S3 using standard SQL.
+
 **Lambda:** Lambda is a serverless compute service. Serverless computing provides built-in fault tolerance. You don't need to architect for this capability since the service provides it by default.
+
 **Edge locations:** Edge locations are used by CloudFront to cache and distribute content to your global customers with low latency.
+
 **ELB:** Elastic Load Balancers distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions.
+
 **MFA:** Multi-Factor Authentication (MFA) is a simple best practice that adds an extra layer of protection on top of your user name and password.
+
 **Penetration testing:** Penetration testing is the practice of testing a network or web application to find security vulnerabilities that an attacker could exploit.
-**AWS CloudTrail:** API calls are tracked AWS CloudTrail
+
+**AWS CloudTrail:** API calls are tracked AWS CloudTrail.
+
 **AWS OpsWorks:** AWS OpsWorks is a configuration management service that provides managed instances of Chef and Puppet. Chef and Puppet are automation platforms that allow you to use code to automate the configurations of your servers.
+
 **Amazon CloudWatch:** Amazon CloudWatch is mainly used to monitor the utilization of your AWS resources.
+
 **AWS Config:** AWS Config is a fully managed service that provides customers with an AWS resource inventory, configuration history, and configuration change notifications to enable security and governance.
-**Amazon SES:** Amazon Simple Email Service is a flexible, affordable, and highly-scalable email messaging platform for businesses and developer
+
+**Amazon SES:** Amazon Simple Email Service is a flexible, affordable, and highly-scalable email messaging platform for businesses and developer.
+
 **Amazon Connect:** Amazon Connect is a cloud-based contact center service that makes it easy for businesses to deliver customer service at low cost.
+
 **AWS Direct Connect:** is a cloud service solution that is used to establish a dedicated network connection between your premises and AWS.
+
 **AWS VPN:** AWS VPN is comprised of two services: AWS Site-to-Site VPN and AWS Client VPN. AWS Site-to-Site VPN enables you to securely connect your on-premises network or branch office site to AWS. AWS Client VPN enables you to securely connect users (from any location) to AWS or on-premises networks.
+
 **AWS Storage Gateway:** AWS Storage Gateway is a hybrid storage service that enables your on-premises applications to seamlessly use AWS cloud storage.
+
 **Amazon EBS volume:** An Amazon EBS volume is a durable, block-level storage device that you can attach to a single EC2 instance. You can use EBS volumes as primary storage for data that requires frequent updates, such as the system drive for an instance or storage for a database application. You can also use them for throughput-intensive applications that perform continuous disk scans.
