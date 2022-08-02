@@ -312,6 +312,7 @@ The Well-Architected Framework is based on 5 pillars:
 - Cost optimization
 
 #### Advantages of cloud computing
+
 Operating in the AWS Cloud offers many benefits over computing in on-premises or hybrid environments. 
 In this section, you will learn about six advantages of cloud computing:
 
@@ -322,7 +323,7 @@ In this section, you will learn about six advantages of cloud computing:
 - Stop spending money running and maintaining data centers.
 - Go global in minutes.
 
-## Definations: 
+## Definitions: 
 
 **CodeStar** : Help you quickly develop,build abd deploy
 
