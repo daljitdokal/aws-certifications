@@ -324,15 +324,30 @@ In this section, you will learn about six advantages of cloud computing:
 
 ## Definations: 
 
-**DMS:** 
+**CodeStar** : Help you quickly develop,build abd deploy
 
-**HSM:**
+- **Codepipeline** : CI/CD (same as gitlab-ci)
+  - **CodeCommit** : Private git repository
+  - **COdeBuild** : CI/CD (same as gitlab-ci)
+  - **COdeDeploy** : Automate deployment with YAML file
 
-**AWS Chime:**
+- **CLoudFormation** : Template based automated deployment for inffrastructure.
 
-**AppStream:**
+**Congnito:** : Help with access i.e. sso, OAuth
+
+**DMS** : AWS Database Migration Service
+
+**AWS KMS:** Key management system for encryption keys
+
+**HSM:** AWS CloudHSM is a cloud-based hardware security module (HSM) that enables you to easily generate and use your own encryption keys on the AWS Cloud.
+
+**AWS Chime:** Video Conferencing & Online Meetings - Amazon Chime
+
+**AppStream:**: AppStream 2.0 is a fully managed application streaming service that provides users instant access to their desktop applications from anywher
 
 **VPC:**  virtual private cloud
+
+**AWS control tower:** If you have multiple AWS accounts and teams, cloud setup and governance can be complex and time consuming, slowing down the very innovation you’re trying to speed up. AWS Control Tower provides the easiest way to set up and govern a secure, multi-account AWS environment, called a landing zone.
 
 **ECR:** Elastic Container Registry (Amazon ECR) is a Docker container registry that allows developers to store, manage, and deploy Docker container images.
 
