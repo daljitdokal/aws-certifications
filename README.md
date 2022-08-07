@@ -3,7 +3,7 @@
 -------------------------------------------------------------------------
 Exam:
 
-Certification: 
+Certification:  https://www.credly.com/badges/a35f5bd8-f56b-45e0-b134-63f47de08b30/linked_in?t=rg19r2
 
 Note: Most question was based on 5 pillars of AWS: https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html
 
