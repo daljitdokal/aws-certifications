@@ -1,5 +1,14 @@
 # AWS cloud practitioner essentials all modules
 
+-------------------------------------------------------------------------
+Exam:
+
+Certification: 
+
+Note: Most question was based on 5 pillars of AWS: https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html
+
+-------------------------------------------------------------------------
+
 ## Module 1
 ### Cloud computing
 The three cloud computing deployment models are cloud-based, on-premises, and hybrid. 
