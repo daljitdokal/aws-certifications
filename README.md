@@ -1,9 +1,8 @@
 # AWS cloud practitioner essentials all modules
 
 -------------------------------------------------------------------------
-Exam:
 
-Successfully passed the AWS Certified Cloud Practitioner exam.
+**Successfully passed the AWS Certified Cloud Practitioner exam.**
 
 Certification:  https://www.credly.com/badges/a35f5bd8-f56b-45e0-b134-63f47de08b30/linked_in?t=rg19r2
 
