@@ -16,6 +16,7 @@ Certification:  https://www.credly.com/badges/a35f5bd8-f56b-45e0-b134-63f47de08b
 # AWS Solutions Architect (Associate)
 
 Essentials all modules:
+
 https://github.com/daljitdokal/aws-certifications/blob/main/aws-solutions-architect-associate.md
 
 
