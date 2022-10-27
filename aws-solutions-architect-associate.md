@@ -68,6 +68,12 @@ AWS Config Developer Guide - Evaluating Resources with Rules: https://docs.aws.a
 To strengthen security for the resources and service within your Amazon VPC, utilizing a multi-tier application architecture design can provide for more granular control of network traffic.
 
 
+AWS provides the AWS Cloud Adoption Framework (AWS CAF) which gives guidance and best practices to help build a comprehensive approach to cloud computing across your organization. Within this framework, the security perspective of the AWS CAF covers five key capabilities:
 
+- AWS Identity and Access Management (IAM): Define, enforce, and audit user permissions across AWS services, actions, and resources.
+- Detective control: Improve your security posture, reduce the risk profile of your environment, and gain the visibility you need to spot issues before they impact your business.
+- Infrastructure security: Reduce the surface area of the infrastructure you manage and increase the privacy and control of your overall infrastructure on AWS.
+- Data protection: Implement appropriate safeguards that help protect data in transit and at rest by using natively integrated encrypted services.
+- Incident response: Define and launch a response to security incidents as a guide for security planning.
 
 
