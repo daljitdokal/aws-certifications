@@ -77,3 +77,23 @@ AWS provides the AWS Cloud Adoption Framework (AWS CAF) which gives guidance and
 - Incident response: Define and launch a response to security incidents as a guide for security planning.
 
 
+**What are best practices for application architecture design?**
+
+
+#### Best practice: Limit exposure of resources
+
+**SINGLE-TIER**
+
+When you build your Amazon VPC, think about how many layers of security you're going to put between your potential attackers and your critical resources.
+
+A single-tier application architecture puts everything into one subnet. This exposes all of your resources to any attackers who manage to get access to your network. Using subnets, your network architecture can provide extra layers of security.
+
+**MULTI-TIER**
+
+In a multi-tier application architecture, you can introduce extra layers of defense between attackers and your sensitive resources. In this example, data is the most sensitive resource, so you would place it at the end of a chain to introduce two more layers of defense between attackers and your data.
+
+In fact, you don't need to expose parts of your application in the public subnet at all if you use managed AWS endpoints, such as load balancers or Network Address Translation (NAT) options.
+
+
+
+
