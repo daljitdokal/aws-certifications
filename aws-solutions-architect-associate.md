@@ -52,10 +52,15 @@ AWS provides load balancers to achieve high availability, fault-tolerance, and s
 ### Security Compliance Resources
 
 Security best practices for your VPC: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-best-practices.html
+
 AWS Compliance Homepage: https://aws.amazon.com/compliance/
+
 AWS Security Hub: https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html
+
 Security and Compliance Quick Start Guides: http://aws.amazon.com/quickstart/?awsf.quickstart-homepage-filter=categories%23security-identity-compliance
+
 Architecting for HIPAA Security and Compliance Whitepaper: https://d0.awsstatic.com/whitepapers/compliance/AWS_HIPAA_Compliance_Whitepaper.pdf
+
 AWS Config Developer Guide - Evaluating Resources with Rules: https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config.html
 
 ### Production–Ready: Multi-Tier Architecture for an Amazon VPC
