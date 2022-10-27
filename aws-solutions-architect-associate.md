@@ -43,6 +43,25 @@ Security groups are the other security feature of an Amazon VPC. Unlike network 
 
 **Note:** Security groups are not capable of explicitly blocking traffic. If you need to block a certain IP address or a block of IP addresses, you will require assistance from network ACLs.
 
+### Adding High Availability
+
+How are interruptions to the availability of your application's resources handled? Remember the custom Amazon VPC that was built in the first module? How can you make it highly available to lessen interruptions and add high availability and scalability to the custom Amazon VPC? 
+
+AWS provides load balancers to achieve high availability, fault-tolerance, and scaling, and also custom Amazon VPCs where two subnets can be configured, each in a separate Availability Zone which creates a Multi-AZ design.  
+
+### Security Compliance Resources
+
+Security best practices for your VPC: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-best-practices.html
+AWS Compliance Homepage: https://aws.amazon.com/compliance/
+AWS Security Hub: https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html
+Security and Compliance Quick Start Guides: http://aws.amazon.com/quickstart/?awsf.quickstart-homepage-filter=categories%23security-identity-compliance
+Architecting for HIPAA Security and Compliance Whitepaper: https://d0.awsstatic.com/whitepapers/compliance/AWS_HIPAA_Compliance_Whitepaper.pdf
+AWS Config Developer Guide - Evaluating Resources with Rules: https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config.html
+
+
+
+
+
 
 
 
