@@ -58,8 +58,9 @@ Security and Compliance Quick Start Guides: http://aws.amazon.com/quickstart/?aw
 Architecting for HIPAA Security and Compliance Whitepaper: https://d0.awsstatic.com/whitepapers/compliance/AWS_HIPAA_Compliance_Whitepaper.pdf
 AWS Config Developer Guide - Evaluating Resources with Rules: https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config.html
 
+### Production–Ready: Multi-Tier Architecture for an Amazon VPC
 
-
+To strengthen security for the resources and service within your Amazon VPC, utilizing a multi-tier application architecture design can provide for more granular control of network traffic.
 
 
 
